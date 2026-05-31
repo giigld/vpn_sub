@@ -1,1 +1,145 @@
-dmxlc3M6Ly9kOTllNzg3NS04ODI0LTAwMGEtOGU2OS04ZWFmOTkyN2E0ZmJAMTQ0LjMxLjEyOS4xNzQ6NDQzP2Zsb3c9eHRscy1ycHJ4LXZpc2lvbiZzZWN1cml0eT1yZWFsaXR5JnNuaT1zMy1ydS1jZW50cmFsLTEucnVjZG43NzcuY29tJnBiaz1zWURRQzFSVVpLcXRKYXU3d3JsLWk1eUF5NjEzZDllNzJGUkdBd3ZZVU0mdHlwZT10Y3AjRkkg0KTQuNC90LvRj9C90LTQuNGPLCDQpdC10LvRjNGB0LjQvdC60LggKNCe0YHQvdC90L7QuSkg8J+Rhg0Kdmxlc3M6Ly9kOTllNzg3NS04ODI0LTAwMGEtOGU2OS04ZWFmOTkyN2E0ZmJAMTU4LjE2MC4yMzEuNzc6NDQzP2Zsb3c9eHRscy1ycHJ4LXZpc2lvbiZzZWN1cml0eT1yZWFsaXR5JnNuaT1zMy1ydS1jZW50cmFsLTEucnVjZG43NzcuY29tJnBiaz1zWURRQzFSVVpLcXRKYXU3d3JsLWk1eUF5NjEzZDllNzJGUkdBd3ZZVU0mdHlwZT10Y3AjRkkg0KTQuNC90LvRj9C90LTQuNGPLCDQpdC10LvRjNGB0LjQvdC60LggKNCg0LXQt9C10YDQstC6KSDwn5GGDQp2bGVzczovL2Q5OWU3ODc1LTg4MjQtMDAxNC04ZWx5LThlYWY5OTI3YTRmYgAxNDQuMzEuMTI5LjE3NDo0NDM/Zmxvdz14dGxzLXJwcmgtdmlzaW9uJnNlY3VyaXR5PXJlYWxpdHkmc25pPXMzLXJ1LWNlbnRyYWwtMS5ydWNkbjc3Ny5jb20mcGJrPXNZRFFDMVJVWktxdEphdTd3cmwtaTV5QXk2MTNkOWU3MkZSR0F3dlZVTSZ0eXBlPXRjcCNFRSDQrdGB0YLQvtC90LjRjywg0KLQsNC70LvQuNC90L0gKNCe0YHQvdC90L7QuSkg8J+Rhg0Kdmxlc3M6Ly9kOTllNzg3NS04ODI0LTAwMTQtOGVseS04ZWFmOTkyN2E0ZmJAMTU4LjE2MC4yMzEuNzc6NDQzP2Zsb3c9eHRscy1ycHJ4LXZpc2lvbiZzZWN1cml0eT1yZWFsaXR5JnNuaT1zMy1ydS1jZW50cmFsLTEucnVjZG43NzcuY29tJnBiaz1zWURRQzFSVVpLcXRKYXU3d3JsLWk1eUF5NjEzZDllNzJGUkdBd3ZZVU0mdHlwZT10Y3AjRUUg0KBR0YHRgtC90LjRjywg0KLQsNC70LvQuNC90L0gKNCg0LXQt9C10YDQstC6KSDwn5GGDQp2bGVzczovL2Q5OWU3ODc1LTg4MjQtNDNmMS04ZTY5LThlYWY5OTI3YTRmY0AxNzguMjQ4LjIzNS43MzoxNDQ0Mz9mbGFwnHh0bHMtcnByeC12aXNpb24mc2VjdXJpdHk9cmVhbGl0eSZzbmk9b3pvbi5ydSZwYms9Rm1pOWF2cVprd1pKLTdXVzhmb1RUMnZuR2RxTjRla1lPRk5fQ21MVElHUSZ0eXBlPXRjcCNFVSBMVEUgfCDQktGB0LUg0L7Qv9C10YDQsNGC0L7RgNGLCDimocNCnZsZXNzOi8vZDk5ZTc4NzUtODgyNC0wMDI4LThlNjktOGVhZjk5MjdhNGZiQDE0NC4z...fR0F3dlZVTSZ0eXBlPXRjcCNERSDQk9C10YDQvNCw0L3QuNGPLCDQkdC10YDQu9C40L0gKNCe0YHQvdC90L7QuSkg8J+Rhg0Kdmxlc3M6Ly9kOTllNzg3NS04ODI0LTAwMjgtOGU2OS04ZWFmOTkyN2E0ZmJAMTU4LjE2MC4yMzEuNzc6NDQzP2Zsb3c9eHRscy1ycHJ4LXZpc2lvbiZzZWN1cml0eT1yZWFsaXR5JnNuaT1zMy1ydS1jZW50cmFsLTEucnVjZG43NzcuY29tJnBiaz1zWURRQzFSVVpLcXRKYXU3d3JsLWk1eUF5NjEzZDllNzJGUkdBd3ZZVU0mdHlwZT10Y3AjREUg0Qv0YDQvNCw0L3QuNGPLCDQkdC10YDQu9C40L0gKNCg0LXQt9C10YDQstC6KSDwn5GG
+{
+  "dns": {
+    "queryStrategy": "UseIP",
+    "servers": [
+      "1.1.1.1",
+      "1.0.0.1"
+    ]
+  },
+  "inbounds": [
+    {
+      "listen": "127.0.0.1",
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true
+      },
+      "sniffing": {
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ],
+        "enabled": true,
+        "routeOnly": false
+      },
+      "tag": "socks"
+    },
+    {
+      "listen": "127.0.0.1",
+      "port": 10809,
+      "protocol": "http",
+      "settings": {
+        "allowRedirect": false
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "vless",
+      "tag": "FI Финляндия, Хельсинки (Основной) 🇫🇮",
+      "server": "144.31.129.174",
+      "server_port": 443,
+      "uuid": "d99e7875-8824-000a-8e69-8eaf9927a4fb",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "tls": {
+        "enabled": true,
+        "server_name": "://rucdn777.com",
+        "utls": { "enabled": true, "fingerprint": "chrome" },
+        "reality": { "enabled": true, "public_key": "sYDQC1RUZKqtJau7wrl-i5yAYy613d9e72FRGAwvYUM" }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "FI Финляндия, Хельсинки (Резерв) 🇫🇮",
+      "server": "158.160.231.77",
+      "server_port": 443,
+      "uuid": "d99e7875-8824-000a-8e69-8eaf9927a4fb",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "tls": {
+        "enabled": true,
+        "server_name": "://rucdn777.com",
+        "utls": { "enabled": true, "fingerprint": "chrome" },
+        "reality": { "enabled": true, "public_key": "sYDQC1RUZKqtJau7wrl-i5yAYy613d9e72FRGAwvYUM" }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "EE Эстония, Таллинн (Основной) 🇪🇪",
+      "server": "144.31.129.174",
+      "server_port": 443,
+      "uuid": "d99e7875-8824-0014-8e69-8eaf9927a4fb",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "tls": {
+        "enabled": true,
+        "server_name": "://rucdn777.com",
+        "utls": { "enabled": true, "fingerprint": "chrome" },
+        "reality": { "enabled": true, "public_key": "sYDQC1RUZKqtJau7wrl-i5yAYy613d9e72FRGAwvYUM" }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "EE Эстония, Таллинн (Резерв) 🇪🇪",
+      "server": "158.160.231.77",
+      "server_port": 443,
+      "uuid": "d99e7875-8824-0014-8e69-8eaf9927a4fb",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "tls": {
+        "enabled": true,
+        "server_name": "://rucdn777.com",
+        "utls": { "enabled": true, "fingerprint": "chrome" },
+        "reality": { "enabled": true, "public_key": "sYDQC1RUZKqtJau7wrl-i5yAYy613d9e72FRGAwvYUM" }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "EU LTE | Все операторы ⚡",
+      "server": "178.248.235.73",
+      "server_port": 14443,
+      "uuid": "d99e7875-8824-43f1-8e69-8eaf9927a4fb",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "tls": {
+        "enabled": true,
+        "server_name": "ozon.ru",
+        "utls": { "enabled": true, "fingerprint": "chrome" },
+        "reality": { "enabled": true, "public_key": "Fmi9avqZkwZJ-7WW8foTT2vnGdqN4ekYOFN_CmLTIGQ" }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "DE Германия, Берлин (Основной) 🇩🇪",
+      "server": "144.31.129.174",
+      "server_port": 443,
+      "uuid": "d99e7875-8824-0028-8e69-8eaf9927a4fb",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "tls": {
+        "enabled": true,
+        "server_name": "://rucdn777.com",
+        "utls": { "enabled": true, "fingerprint": "chrome" },
+        "reality": { "enabled": true, "public_key": "sYDQC1RUZKqtJau7wrl-i5yAYy613d9e72FRGAwvYUM" }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "DE Германия, Берлин (Резерв) 🇩🇪",
+      "server": "158.160.231.77",
+      "server_port": 443,
+      "uuid": "d99e7875-8824-0028-8e69-8eaf9927a4fb",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "tls": {
+        "enabled": true,
+        "server_name": "://rucdn777.com",
+        "utls": { "enabled": true, "fingerprint": "chrome" },
+        "reality": { "enabled": true, "public_key": "sYDQC1RUZKqtJau7wrl-i5yAYy613d9e72FRGAwvYUM" }
+      }
+    }
+  ]
+}
